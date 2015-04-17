@@ -1,5 +1,100 @@
 {
 	"name":"Yamuna Flood Waters",
 	"short_name":"yamuna_waters",
-	"description":"N/A"
+	"category":"Yamuna Monsoon Flooding 2013",
+	"description":"Where are the flood waters? What are they affecting?",
+	"why":"TODO",
+	"icon_link":"http://news.xinhuanet.com/english/photo/2013-06/20/132470396_11n.jpg",
+	"questions":[
+		{
+			"id":1,
+			"title":"Can you see any water in the photo?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"water"
+			}
+		},
+		{
+			"id":2,
+			"title":"Can you see small pools of water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"waterSmall"
+			}
+		},
+		{
+			"id":3,
+			"title":"Are these small pools of water near human shelters or a settlement?",
+			"hint":"Do you see one or more buildings or tents in the photo?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"waterSmallShelter"
+			}
+		},
+		{
+			"id":4,
+			"title":"Can you see a large body of water?",
+			"hint":"Large water bodies can include rivers, lakes, large ponds, and flood waters.",
+			"type":"binary",
+			"answer":{
+				"saved_as":"waterLarge"
+			}
+		},
+		{
+			"id":5,
+			"title":"Can you see any signs of fast moving water?",
+			"type":"multiple_choice",
+			"answer":{
+				"saved_as":"waterLargeFast",
+				"choices":[
+					{"Peaks":"White peaks in the water"},
+					{"Rough":"Rough water surface"},
+					{"Swirling":"Water swirling around objects in the water"}
+				]
+			}
+		},
+		{
+			"id":6,
+			"title":"Can you see any of the following flood protection measures?",
+			"type":"multiple_choice",
+			"answer":{
+				"saved_as":"waterLargeProtection",
+				"choices":[
+					{"Sandbags":"Sandbags"},
+					{"Barriers":"Makeshift barriers"},
+					{"Embankments":"Embankments"},
+					{"Other":"Other"}
+				]
+			}
+		},
+		{
+			"id":7,
+			"title":"Can you see any sources of drinking water?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"waterDrinking"
+			}
+		},
+		{
+			"id":8,
+			"title":"Which sources of drinking water can you see?",
+			"type":"multiple_choice",
+			"answer":{
+				"saved_as":"waterDrinkingSources",
+				"choices":[
+					{"Pipes":"Water pipes and access taps"},
+					{"Tankers":"Water tankers"}
+				]
+			}
+		},
+		{
+			"id":9,
+			"title":"Have they been affected by the flood waters?",
+			"hint":"Look for signs that the water source has been damaged or in some way affected by the flood waters. For instance, are they no longer accessible because of the flood waters or associated debris? Have they been damaged in some way?",
+			"type":"binary",
+			"answer":{
+				"saved_as":"waterDrinkingSourcesAffected"
+			}
+		}
+	]
 }
