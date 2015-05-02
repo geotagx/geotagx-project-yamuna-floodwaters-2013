@@ -3,8 +3,7 @@
 	"short_name":"yamuna_waters",
 	"category":"Yamuna Monsoon Flooding 2013",
 	"description":"Where are the flood waters? What are they affecting?",
-	"why":"TODO",
-	"icon_link":"http://news.xinhuanet.com/english/photo/2013-06/20/132470396_11n.jpg",
+	"why":"With this project, we hope to extract data on the 2013 flooding event that could have been helpful for the response and recovery effort.",
 	"questions":[
 		{
 			"id":1,
