@@ -4,7 +4,7 @@
 			"image":"http://images.indianexpress.com/2013/06/m_id_394934_yamuna_floods.jpg",
 			"image_source":"http://archive.indianexpress.com/news/yamuna-water-nears-1978-record-outlying-delhi-areas-flooded-1-dead/1131152/",
 			"assertions":{
-				"1":{
+				"water":{
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -12,7 +12,7 @@
 						"no":"Are you sure there is no water? If you are looking at flood waters there might be buildings in the water"
 					}
 				},
-				"2":{
+				"waterSmall":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -20,7 +20,7 @@
 						"yes":"Are you sure you are looking at a small water body? Pay attention to the relative size of the objects in and around the water."
 					}
 				},
-				"4":{
+				"waterLarge":{
 					"expects":"yes",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -28,7 +28,7 @@
 						"no":"Look at the scale of the water in the image. Is it covering a large area?"
 					}
 				},
-				"5":{
+				"waterLargeFast":{
 					"expects":"none",
 					"default_message":"Are you sure you can see the selected indicator(s)? If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -37,7 +37,7 @@
 						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"6":{
+				"waterLargeProtection":{
 					"expects":"embankments",
 					"default_message":"Are you sure you can see the selected protection measure(s)? Hint: High flood waters can breach embankments. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
@@ -46,7 +46,7 @@
 						"notclear":"Try again. If you are not sure what to look for, check out the help for more information."
 					}
 				},
-				"7":{
+				"waterDrinking":{
 					"expects":"no",
 					"default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
 					"messages":{
